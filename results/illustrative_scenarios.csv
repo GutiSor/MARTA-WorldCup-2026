@@ -1,0 +1,10 @@
+rail_share_scenario,capacity_scenario,assumed_attendance,assumed_rail_share,estimated_rail_riders,assumed_two_hour_capacity,surplus_riders,demand_exceeds_capacity
+low (15%),constrained,75000,0.15,11250,14000,2750,False
+low (15%),baseline,75000,0.15,11250,24000,12750,False
+low (15%),expanded,75000,0.15,11250,36000,24750,False
+medium (30%),constrained,75000,0.3,22500,14000,-8500,True
+medium (30%),baseline,75000,0.3,22500,24000,1500,False
+medium (30%),expanded,75000,0.3,22500,36000,13500,False
+high (45%),constrained,75000,0.45,33750,14000,-19750,True
+high (45%),baseline,75000,0.45,33750,24000,-9750,True
+high (45%),expanded,75000,0.45,33750,36000,2250,False
